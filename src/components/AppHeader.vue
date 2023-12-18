@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <Search />
+    <Search @keyup.enter="$emit('search')" />
 </template>
 
 <style scoped></style>
